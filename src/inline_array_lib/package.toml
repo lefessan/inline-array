@@ -33,7 +33,7 @@ gen-version = "version.ml"
 # menhir = ...
 
 # whether all modules should be packed/wrapped (default is true)
-# pack-modules = false
+pack-modules = false
 
 # whether the package can be silently skipped if missing deps (default is false)
 # optional = true

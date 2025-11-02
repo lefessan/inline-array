@@ -5,7 +5,7 @@ version:0.9.0
 
 # hash of toml configuration files
 # used for generation of all files
-19155fa80ae2914c83cfd8fb9d03c697:.
+e2a60d16548f971718422eb25879ee16:.
 # end context for .
 
 # begin context for .github/workflows/workflow.yml
@@ -205,18 +205,13 @@ fb1504b512f9ec6892f760e14511b3ed:src/inline-array/version.mlt
 
 # begin context for src/inline_array_lib/dune
 # file src/inline_array_lib/dune
-97526de4cebd82e4af2f38fb2f84e1e3:src/inline_array_lib/dune
+0ec141968b29bf1e58cb61825a1dd921:src/inline_array_lib/dune
 # end context for src/inline_array_lib/dune
 
 # begin context for src/inline_array_lib/index.mld
 # file src/inline_array_lib/index.mld
-de18f62e117303d5d9253d07025161bd:src/inline_array_lib/index.mld
+e73baf4e9aa3e7333e3debdecae67e93:src/inline_array_lib/index.mld
 # end context for src/inline_array_lib/index.mld
-
-# begin context for src/inline_array_lib/main.ml
-# file src/inline_array_lib/main.ml
-3ff374a3295cb4f28a506beb728d18ee:src/inline_array_lib/main.ml
-# end context for src/inline_array_lib/main.ml
 
 # begin context for src/inline_array_lib/package.toml
 # file src/inline_array_lib/package.toml

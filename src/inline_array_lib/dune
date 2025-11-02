@@ -3,7 +3,7 @@
 (library
   (name inline_array_lib)
   (public_name inline_array_lib)
-  (wrapped true)
+  (wrapped false)
   ; use field 'dune-libraries' to add libraries without opam deps
   (libraries  )
   ; use field 'dune-flags' to set this value
