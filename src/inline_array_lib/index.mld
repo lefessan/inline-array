@@ -1,0 +1,9 @@
+{1 Library inline_array_lib}
+
+This is the description
+of the inline-array OCaml project
+
+
+
+The entry point of this library is the module: {!Inline_array_lib}.
+
