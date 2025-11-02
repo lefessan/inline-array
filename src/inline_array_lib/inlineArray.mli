@@ -12,12 +12,26 @@
 
 type 'a t
 
+(* Creates an InlineArray.t containing a `n` copies of the record
+   given in argument *)
 val make : int -> 'a -> 'a t
-val length : 'a t -> int
-val get : 'a t -> int -> 'a
-val set : 'a t -> int -> 'a -> unit (* copy, not a shared pointer *)
 
+(* Returns the number of elements in the InlineArray.t *)
+val length : 'a t -> int
+
+(* Returns the nth element of the InlineArray.t, which is a pointer to
+   the record within the InlineArray.t, not a copy *)
+val get : 'a t -> int -> 'a
+
+(* Copies the record in argument to the nth elemtn of the InlineArray.t *)
+val set : 'a t -> int -> 'a -> unit
+
+(* Creates an InlineArray.t by calling the function and copying the
+   result to the corresponding position of the InlineArray.t *)
 val init : int -> (int -> 'a) -> 'a t
+
+(* Iters on elements of the InlineArray.t. Each element is the element
+   of the InlineArray.t, not a copy *)
 val iter : ('a -> unit) -> 'a t -> unit
 val iteri : (int -> 'a -> unit) -> 'a t -> unit
 
