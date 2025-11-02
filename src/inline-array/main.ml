@@ -45,7 +45,7 @@ let print t =
     ) t;
   ()
 
-let main () =
+let () =
   let a = make 0 0 0 in
   let len = 10 in
   let t = InlineArray.make len a in
@@ -59,3 +59,4 @@ let main () =
   Gc.major ();
   print t;
   ()
+
